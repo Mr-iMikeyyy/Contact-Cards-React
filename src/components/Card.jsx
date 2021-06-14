@@ -6,6 +6,7 @@ function Card(props) {
   return (
     <div className="card">
       <div className="top">
+        {/* <p>{props.keyNumber}</p> */}
         <h2 className="name">{props.name}</h2>
         <Avatar imgURL={props.imgURL} />
       </div>
